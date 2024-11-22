@@ -8,9 +8,8 @@ It is based on Austin Mayer's (October 15 2021) article at:
 https://austinsnerdythings.com/2021/10/15/creating-an-autopilot-in-x-plane-using-python-part-1/
 
 For PID control it uses Caner Durmusoglu Simple PID implementation , which is based on 
-
-# Copyright (C) 2015 Ivmech Mechatronics Ltd. <bilgi@ivmech.com>
 Ivmech PID Controller is simple implementation of a Proportional-Integral-Derivative (PID) Controller in the Python Programming Language.  More information about PID Controller: http://en.wikipedia.org/wiki/PID_controller
+Copyright (C) 2015 Ivmech Mechatronics Ltd. <bilgi@ivmech.com>
 
 
 Three PID controls are used , one for pitch, one for roll and a pitch governor to control speed. 
