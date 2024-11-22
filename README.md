@@ -22,15 +22,15 @@ For many years Dick's glider flight test evaluations regularly published on the 
 The purpose I coded this plugin is to autopilot to help me with the measurement of sink vs time to achive an acurate L/D and flight polar numbers on diferent XPlane 12 gliders
 
 The basic strategy is:
--Set the simulator time/weather to a cold early morning flight with zero or minimum convective activity.
--Take a tow to a given altitud (6000 feet works for me) , set a given speed on the autopilot, wait for the speed to level.
+- Set the simulator time/weather to a cold early morning flight with zero or minimum convective activity.
+- Take a tow to a given altitud (6000 feet works for me) , set a given speed on the autopilot, wait for the speed to level.
 using a chronometer and your calibrated altimeter measure how long takes to loose a fixed amount of altitud (100 to 500 feet) and record the time it took to do so. 
--Change autopilot setting to a new speed (+20 kph for example) and repeat the measurement
--Continue with a range of speed while you have altitud, to gather enough info to create an interpolated sink vs speed plot.
+- Change autopilot setting to a new speed (+20 kph for example) and repeat the measurement
+- Continue with a range of speed while you have altitud, to gather enough info to create an interpolated sink vs speed plot.
 
--For better acuracy in your results, you should take multiple flights to gather more data for your plot therefore averaging any measurement errors. 
+- For better acuracy in your results, you should take multiple flights to gather more data for your plot therefore averaging any measurement errors. 
 
--Finally, air density / altitud corrections are be needed to get a real number for flight performance. 
+- Finally, air density / altitud corrections are be needed to get a real number for flight performance. 
 
 
 
