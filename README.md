@@ -13,24 +13,24 @@ Copyright (C) 2015 Ivmech Mechatronics Ltd. <bilgi@ivmech.com>
 
 
 Three PID controls are used , one for pitch, one for roll and a pitch governor to control speed. 
-PID controlers are not easy to fine tune, The settings are programable adjustable, the default are the parameters I found to work best on my CPU , your results may vary. 
+PID controllers are not easy to fine tune, The settings are programmable adjustable, the default are the parameters I found to work best on my CPU , your results may vary. 
 
 You can read about Dick johnsons Sailplane Performance Flight Test Method on April 1968 edition of the SSA magazine . (look on the wayback machine for a free copy)
 
-For many years Dick's glider flight test evaluations regularly published on the SSA magazine were considered the gold standart of flight testing for gliders. 
+For many years Dick's glider flight test evaluations regularly published on the SSA magazine were considered the gold standard of flight testing for gliders. 
 
-The purpose I coded this plugin is to autopilot to help me with the measurement of sink vs time to achive an acurate L/D and flight polar numbers on diferent XPlane 12 gliders
+The purpose I coded this plugin is to autopilot to help me with the measurement of sink vs time to achieve an accurate L/D and flight polar numbers on different XPlane 12 gliders
 
 The basic strategy is:
 - Set the simulator time/weather to a cold early morning flight with zero or minimum convective activity.
-- Take a tow to a given altitud (6000 feet works for me) , set a given speed on the autopilot, wait for the speed to level.
-using a chronometer and your calibrated altimeter measure how long takes to loose a fixed amount of altitud (100 to 500 feet) and record the time it took to do so. 
+- Take a tow to a given altitude (6000 feet works for me) , set a given speed on the autopilot, wait for the speed to level.
+using a chronometer and your calibrated altimeter measure how long takes to loose a fixed amount of altitude (100 to 500 feet) and record the time it took to do so. 
 - Change autopilot setting to a new speed (+20 kph for example) and repeat the measurement
-- Continue with a range of speed while you have altitud, to gather enough info to create an interpolated sink vs speed plot.
+- Continue with a range of speed while you have altitude, to gather enough info to create an interpolated sink vs speed plot.
 
-- For better acuracy in your results, you should take multiple flights to gather more data for your plot therefore averaging any measurement errors. 
+- For better accuracy in your results, you should take multiple flights to gather more data for your plot therefore averaging any measurement errors. 
 
-- Finally, air density / altitud corrections are be needed to get a real number for flight performance. 
+- Finally, air density / altitude corrections are be needed to get a real number for flight performance. 
 
 
 
@@ -42,4 +42,4 @@ Installation
 For installation copy the Python files to the X-Plane Resources/plugins/PythonPlugins folder so that the Python plugin can find them.
 
 
-* I am looking for the original spreadsheet that Dick used to cruch the numbers, but it seems to have vanished on the internet. It probably is stored on a 'floppy disk' somwhere in the clubhouse, have no idea how would I ever read that these days :) 
+* I am looking for the original spreadsheet that Dick used to crunch the numbers, but it seems to have vanished on the internet. It probably is stored on a 'floppy disk' somewhere in the clubhouse, have no idea how would I ever read that these days :) 
