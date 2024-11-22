@@ -1,5 +1,5 @@
 # XPlane_glider_autopilot
-Auto speed and roll control for D. Johnson Sailplane Performance Flight Test Method [ SSA April 1968 ]
+Auto speed and roll control for D. Johnson Sailplane Performance Flight Test Method [ SSA magazine April 1968 ]
 
 This plugin provides auto speed and auto roll control for gliders. 
 
