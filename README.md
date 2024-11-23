@@ -42,4 +42,4 @@ Installation
 For installation copy the Python files to the X-Plane Resources/plugins/PythonPlugins folder so that the Python plugin can find them.
 
 
-* I am looking for the original spreadsheet that Dick used to crunch the numbers, but it seems to have vanished on the internet. It probably is stored on a 'floppy disk' somewhere in the clubhouse, have no idea how would I ever read that these days :) 
+* I am looking for the original spreadsheet that Dick used to crunch the numbers, but it seems to have vanished on the internet. It probably is stored on a 'floppy disk' somewhere in the clubhouse, have no idea how would I ever read that these days 
